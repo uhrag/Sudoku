@@ -9,3 +9,4 @@ RefactoringAction 1443776862756 TestSudokuVerifier.java RENAME sudoku()=>void te
 RefactoringAction 1443776868767 TestSudokuVerifier.java RENAME test()=>void testSolutionIsValid() METHOD
 RefactoringAction 1443778066478 SudokuVerifier.java REMOVE solutionIsValid() METHOD
 EditAction 1443778580287 TestSudokuVerifier.java 346 1 4 1
+EditAction 1443778580443 SudokuVerifier.java 262 1 1 0
