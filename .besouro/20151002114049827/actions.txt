@@ -10,3 +10,6 @@ RefactoringAction 1443776868767 TestSudokuVerifier.java RENAME test()=>void test
 RefactoringAction 1443778066478 SudokuVerifier.java REMOVE solutionIsValid() METHOD
 EditAction 1443778580287 TestSudokuVerifier.java 346 1 4 1
 EditAction 1443778580443 SudokuVerifier.java 262 1 1 0
+UnitTestCaseAction 1443778581285 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443778581287 TestSudokuVerifier OK
+EditAction 1443778609618 TestSudokuVerifier.java 346 1 4 1
