@@ -9,8 +9,8 @@ public class TestSudokuVerifier {
 	@Test
 	public void testSolutionIsValid() {
 		SudokuVerifier sudokuverifier = new SudokuVerifier();
-
-		String expected = "123";
+		String actual =  "123456789";
+		String expected = "123456789";
 		assertEquals(actual, expected);
 	}
 
