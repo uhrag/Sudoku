@@ -7,8 +7,11 @@ import org.junit.Test;
 public class TestSudokuVerifier {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testSolutionIsValid() {
+		SudokuVerifier sudokuverifier = new SudokuVerifier();
+		String actual =  "123";
+		String expected = "123";
+		assertEquals(actual, expected);
 	}
 
 }

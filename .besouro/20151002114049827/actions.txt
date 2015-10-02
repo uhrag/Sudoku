@@ -1,0 +1,11 @@
+FileOpenedAction 1443775250148 SudokuVerifier.java 198 1 1 0
+RefactoringAction 1443776476771 Game.java ADD Game.java CLASS
+FileOpenedAction 1443776476929 Game.java 70 0 0 0
+RefactoringAction 1443776786751 SudokuVerifier.java ADD boolean solutionIsValid() METHOD
+RefactoringAction 1443776847222 TestSudokuVerifier.java RENAME test()=><initializer /1> null
+RefactoringAction 1443776851734 TestSudokuVerifier.java RENAME <initializer /1>=>void s() METHOD
+RefactoringAction 1443776854242 TestSudokuVerifier.java RENAME s()=>void sudoku() METHOD
+RefactoringAction 1443776862756 TestSudokuVerifier.java RENAME sudoku()=>void test() METHOD
+RefactoringAction 1443776868767 TestSudokuVerifier.java RENAME test()=>void testSolutionIsValid() METHOD
+RefactoringAction 1443778066478 SudokuVerifier.java REMOVE solutionIsValid() METHOD
+EditAction 1443778580287 TestSudokuVerifier.java 346 1 4 1
