@@ -11,7 +11,8 @@ public class TestSudokuVerifier {
 		SudokuVerifier sudokuverifier = new SudokuVerifier();
 		String actual =  "123456789";
 		String expected = "123456789";
+		
+		
 		assertEquals(actual, expected);
 	}
-
 }

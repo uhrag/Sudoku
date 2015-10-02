@@ -26,3 +26,4 @@ RefactoringAction 1443779454568 Game.java ADD List<Constraint> rows FIELD
 RefactoringAction 1443779454569 Game.java ADD List<Constraint> columns FIELD
 RefactoringAction 1443779454569 Game.java ADD List<Constraint> blocks FIELD
 EditAction 1443779735848 SudokuVerifier.java 346 1 2 0
+EditAction 1443779738666 TestSudokuVerifier.java 364 1 4 1
