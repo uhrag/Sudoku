@@ -6,7 +6,7 @@ public class SudokuVerifier {
 		// returns 1 if the candidate solution is correct
 		
 		String runtimeVersion = System.getProperty("java.runtime.version");
-
+		System.out.println(runtimeVersion);
 		
 		if(candidateSolution == "123"){
 		return 0; } else {
