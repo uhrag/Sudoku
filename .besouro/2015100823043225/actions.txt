@@ -1,0 +1,14 @@
+FileOpenedAction 1444334672136 TestSudokuVerifier.java 364 4 16 4
+RefactoringAction 1444334838873 TestSudokuVerifier.java RENAME testSudokuRule1()=>void testSudoku() METHOD
+RefactoringAction 1444334842385 TestSudokuVerifier.java RENAME testSudoku()=>void testSudokuOnlyPositive() METHOD
+RefactoringAction 1444334846911 TestSudokuVerifier.java RENAME testSudokuOnlyPositive()=>void testSudokuOnlyPositiveDigitsRule1() METHOD
+RefactoringAction 1444334858931 TestSudokuVerifier.java RENAME testSudokuRule2()=>void testSudokuAllRule2() METHOD
+RefactoringAction 1444334863942 TestSudokuVerifier.java RENAME testSudokuAllRule2()=>void testSudokuAllDigitsAppearOnceRule2() METHOD
+RefactoringAction 1444334881095 TestSudokuVerifier.java RENAME testSudokuAllDigitsAppearOnceRule2()=>void testSudokuAllDigitsAppearOnceInSubRule2() METHOD
+RefactoringAction 1444334884107 TestSudokuVerifier.java RENAME testSudokuAllDigitsAppearOnceInSubRule2()=>void testSudokuAllDigitsAppearOnceInSubgridRule2() METHOD
+RefactoringAction 1444334919651 TestSudokuVerifier.java RENAME testSudokuRule3()=>void testSudokuRowsRule3() METHOD
+RefactoringAction 1444334927167 TestSudokuVerifier.java ADD void testSudokuRowsRule3()/2 METHOD
+RefactoringAction 1444334930179 TestSudokuVerifier.java RENAME testSudokuRowsRule3()/2=>void testSudokuCRule3() METHOD
+RefactoringAction 1444334933191 TestSudokuVerifier.java RENAME testSudokuCRule3()=>void testSudokuColumnsRule3() METHOD
+RefactoringAction 1444334935703 TestSudokuVerifier.java RENAME testSudokuColumnsRule3()=>void testSudokuColumnsRule4() METHOD
+EditAction 1444341127012 TestSudokuVerifier.java 1327 5 20 5
