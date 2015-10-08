@@ -16,7 +16,8 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testSudokuOnlyPositiveDigitsRule1() {
-		int actual =  sVerify.verify(incorrectSudoku);
+		
+		int actual =  sVerify.verify(correctSudoku);
 		
 		assertEquals(-1, actual);
 	}

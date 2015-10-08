@@ -44,3 +44,6 @@ UnitTestCaseAction 1444343981869 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444343981872 TestSudokuVerifier OK
 RefactoringAction 1444344150905 TestSudokuVerifier.java RENAME incorretSudoku=>String incorrectSudoku FIELD
 EditAction 1444344359736 TestSudokuVerifier.java 1111 2 3 1
+UnitTestCaseAction 1444344363523 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444344363523 TestSudokuVerifier FAIL
+EditAction 1444344522577 TestSudokuVerifier.java 1113 2 3 1
