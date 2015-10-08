@@ -17,7 +17,6 @@ public class TestSudokuVerifier {
 	@Test
 	public void testSudokuOnlyPositiveDigitsRule1() {
 		int checked = 0;
-		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		checked =  sVerify.verify(correctSudoku);
 		
 		System.out.println(incorrectSudoku);
