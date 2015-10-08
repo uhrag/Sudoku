@@ -19,8 +19,6 @@ public class TestSudokuVerifier {
 		int checked = 0;
 		checked =  sVerify.verify(incorrectSudoku);
 		
-		System.out.println(incorrectSudoku);
-		
 		assertEquals(-1, checked);
 	}
 	
