@@ -12,3 +12,18 @@ RefactoringAction 1444334930179 TestSudokuVerifier.java RENAME testSudokuRowsRul
 RefactoringAction 1444334933191 TestSudokuVerifier.java RENAME testSudokuCRule3()=>void testSudokuColumnsRule3() METHOD
 RefactoringAction 1444334935703 TestSudokuVerifier.java RENAME testSudokuColumnsRule3()=>void testSudokuColumnsRule4() METHOD
 EditAction 1444341127012 TestSudokuVerifier.java 1327 5 20 5
+RefactoringAction 1444342040172 TestSudokuVerifier.java ADD String incorretSudoku FIELD
+RefactoringAction 1444342134784 TestSudokuVerifier.java ADD String correctSudoku FIELD
+FileOpenedAction 1444342266267 SudokuVerifier.java 383 1 3 0
+RefactoringAction 1444342472849 SudokuVerifier.java ADD String incorretSudoku FIELD
+RefactoringAction 1444342472850 SudokuVerifier.java ADD String correctSudoku FIELD
+RefactoringAction 1444342911943 TestSudokuVerifier.java RENAME incorretSudoku=>SudokuVerifier String FIELD
+RefactoringAction 1444342915955 TestSudokuVerifier.java RENAME String=>SudokuVerifier veri FIELD
+RefactoringAction 1444342917969 TestSudokuVerifier.java RENAME veri=>SudokuVerifier sv FIELD
+RefactoringAction 1444342919983 TestSudokuVerifier.java RENAME sv=>SudokuVerifier sverify FIELD
+RefactoringAction 1444342925497 TestSudokuVerifier.java RENAME sverify=>SudokuVerifier sVerify FIELD
+RefactoringAction 1444342971065 TestSudokuVerifier.java ADD void setup FIELD
+RefactoringAction 1444342973578 TestSudokuVerifier.java RENAME setup=>void setup() METHOD
+RefactoringAction 1444343038012 SudokuVerifier.java REMOVE correctSudoku FIELD
+RefactoringAction 1444343038013 SudokuVerifier.java REMOVE incorretSudoku FIELD
+EditAction 1444343045193 SudokuVerifier.java 318 1 1 0

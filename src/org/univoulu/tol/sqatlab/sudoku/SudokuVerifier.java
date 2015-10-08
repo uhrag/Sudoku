@@ -2,17 +2,13 @@ package org.univoulu.tol.sqatlab.sudoku;
 
 public class SudokuVerifier {
 
-	public int verify(String candidateSolution) {
+	public int verify(String candidateSolution) throws LengthException {
 		// returns 1 if the candidate solution is correct
 		
-		String runtimeVersion = System.getProperty("java.runtime.version");
-		System.out.println(runtimeVersion);
-		
-		if(candidateSolution == "123"){
-		return 0; } else {
-		return 0;
+		for(char c: candidateSolution.toCharArray()){
+			if(!Character.isDigit(c)) {
+				return -1;
+			}
 		}
- 
-	}
 
 }
