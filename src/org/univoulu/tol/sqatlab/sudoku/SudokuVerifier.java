@@ -10,6 +10,10 @@ public class SudokuVerifier {
 			if(!Character.isDigit(c) || c == '-') {
 				return -1;
 			}
+			
+			if(candidateSolution != null){
+				System.out.println("Jeeeeeee!");
+			}
 		}
 		
 		return 0;
