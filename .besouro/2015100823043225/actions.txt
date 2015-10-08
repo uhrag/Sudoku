@@ -36,3 +36,7 @@ CompilationAction 1444343263255 SudokuVerifier.java
 CompilationAction 1444343263255 SudokuVerifier.java
 CompilationAction 1444343263414 SudokuVerifier.java
 EditAction 1444343268236 TestSudokuVerifier.java 1599 3 8 2
+CompilationAction 1444343410456 SudokuVerifier.java
+RefactoringAction 1444343552734 TestSudokuVerifier.java REMOVE testSolutionIsValid() METHOD
+RefactoringAction 1444343976035 TestSudokuVerifier.java RENAME setup()=>void init() METHOD
+EditAction 1444343981453 TestSudokuVerifier.java 1137 2 4 1
