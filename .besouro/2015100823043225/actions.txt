@@ -40,3 +40,7 @@ CompilationAction 1444343410456 SudokuVerifier.java
 RefactoringAction 1444343552734 TestSudokuVerifier.java REMOVE testSolutionIsValid() METHOD
 RefactoringAction 1444343976035 TestSudokuVerifier.java RENAME setup()=>void init() METHOD
 EditAction 1444343981453 TestSudokuVerifier.java 1137 2 4 1
+UnitTestCaseAction 1444343981869 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444343981872 TestSudokuVerifier OK
+RefactoringAction 1444344150905 TestSudokuVerifier.java RENAME incorretSudoku=>String incorrectSudoku FIELD
+EditAction 1444344359736 TestSudokuVerifier.java 1111 2 3 1
