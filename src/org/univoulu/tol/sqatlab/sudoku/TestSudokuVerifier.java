@@ -18,7 +18,6 @@ public class TestSudokuVerifier {
 	public void testSudokuOnlyPositiveDigitsRule1() {
 		int checked = 0;
 		checked =  sVerify.verify(incorrectSudoku);
-
 		
 		assertEquals(-1, checked);
 	}
