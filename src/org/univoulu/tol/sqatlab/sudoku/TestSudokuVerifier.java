@@ -16,10 +16,10 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testSudokuOnlyPositiveDigitsRule1() {
+		int check = 0;
+		check =  sVerify.verify(correctSudoku);
 		
-		int actual =  sVerify.verify(correctSudoku);
-		
-		assertEquals(-1, actual);
+		assertEquals(-1, check);
 	}
 	
 /*	public void testSudokuAllDigitsAppearOnceInSubgridRule2() {
