@@ -27,3 +27,12 @@ RefactoringAction 1444342973578 TestSudokuVerifier.java RENAME setup=>void setup
 RefactoringAction 1444343038012 SudokuVerifier.java REMOVE correctSudoku FIELD
 RefactoringAction 1444343038013 SudokuVerifier.java REMOVE incorretSudoku FIELD
 EditAction 1444343045193 SudokuVerifier.java 318 1 1 0
+CompilationAction 1444343045792 SudokuVerifier.java
+CompilationAction 1444343045792 SudokuVerifier.java
+RefactoringAction 1444343200673 TestSudokuVerifier.java REMOVE testSudokuRowsRule3() METHOD
+RefactoringAction 1444343200673 TestSudokuVerifier.java REMOVE testSudokuColumnsRule4() METHOD
+RefactoringAction 1444343200673 TestSudokuVerifier.java REMOVE testSudokuAllDigitsAppearOnceInSubgridRule2() METHOD
+CompilationAction 1444343263255 SudokuVerifier.java
+CompilationAction 1444343263255 SudokuVerifier.java
+CompilationAction 1444343263414 SudokuVerifier.java
+EditAction 1444343268236 TestSudokuVerifier.java 1599 3 8 2
